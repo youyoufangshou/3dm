@@ -1,0 +1,1186 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+li{
+    list-style: none;
+}
+body{
+    min-width: 1300px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    text-decoration: underline;
+}
+.red{
+        color: red;
+}
+.blue{
+    color:#177BA1;
+}
+
+.main{
+    width: 1000px;
+    height: 4000px;
+//  background-color: red;
+    margin:0px 174px ;
+}
+
+/**************************上部（顶部+搜索+导航1+导航2+广告）***************************************/
+.top{
+    height: 33px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    .left{
+        width: 111px;
+        height: 36px;
+        background-color:rgb(16,149,194);
+        text-align: center;   
+        display: block;
+        float: left;    
+        a{
+            width: 111px;
+            height: 35px;
+            display: block;
+            color: white;
+            font-size: 14px; 
+            
+            padding-top: 7px;    
+        }
+        a:hover{
+             text-decoration:underline;
+        }
+    }
+    .right{
+        li{
+            display: block;
+            float: right;
+            a{
+                display: block;
+                height: 23px;
+                color: #FFFFFF;
+                font-size: 10px;
+                text-align: center;
+                padding: 7px 15px; 
+            }
+            a:hover{
+                background-color: rgb(16,149,194);
+                 text-decoration:underline;               
+            }
+            span{
+                display: block;
+                margin-top: 5px;
+            }
+        }
+        
+    }
+}
+.search{
+    height: 88px;
+    width: 100%;
+//  background: blue;
+    float: left;
+    img{
+        width: 278px;
+        height: 70px;
+        float: left;
+    }
+    .list{
+        .button{
+            background-image: url(../img/search.jpg);
+            width: 80px;
+            height: 32px;
+            border: 1px solid orange;
+        }
+        .text{
+            width: 317px;
+            height: 30px;
+            color: darkgrey;
+            border: 1px solid orange;
+        }
+       input{
+           border: none;
+           float: right;
+           margin-top: 28px;
+           
+       } 
+       select{
+           float: right;
+           margin: 28px 2px 0px 0px;
+           height: 32px;
+           width: 62px;
+           font-size: 15px;
+       }
+    }
+    .example{
+        display: block;
+        float: right;
+        font-size: 13px;
+        margin-top: 6px;
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+    
+}
+.nav1{
+    height: 30px;
+    width: 100%;
+    background-color:rgb(16,149,194) ;
+    float: left;
+    padding-top: 10px;
+    a{
+        margin:0px 5px ;
+        font-size: 14px;
+        padding-left: 12px;
+        color:white;       
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+.nav2{
+    
+    height: 25px;
+    width: 100%;
+    background-color: black;
+    float: left;
+    ul{
+        margin-left: 15px;
+   li{
+            display: block;
+            float: left;
+            a{
+                display: block;
+                height: 10px;
+                color: #FFFFFF;
+                font-size: 10px;
+                text-align: center;
+                padding: 6px 4px; 
+            }
+            a:hover{
+                 text-decoration:underline;               
+            }
+            span{
+                display: block;
+                margin-top: 6px;
+                color: #A9A9A9;
+                font-size: 10px;
+                
+            }
+        }
+    }
+    .red{
+        color: red;
+    }
+}
+.advert{
+    margin-top: 10px;
+    height: 120px;
+    width: 100%;
+//  background-color: #FFA500;
+    float: left;
+    font-size: 15px;
+    ul{
+        margin-left: 5px;
+    }
+    li{
+        width: 100px;
+        margin:0px 5px;
+        text-align: center;
+        float: left;
+        
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        border: 0px solid black;
+    }
+}
+.game{
+    width: 100%;
+    height: 300px;
+//  background-color: chartreuse;
+    float: left;
+    margin-top: 10px;
+    .left{
+        height: 300px;
+        width: 90px;
+//      background-color: #FFA500;
+        float: left;
+        a{
+            display: none;
+        }
+    }
+    .middle{
+        height: 299px;
+        width: 800px;
+        float: left;
+        background-color: #FFFFFF;
+        margin-left: 10px;
+        border-left:1px solid #A9A9A9 ;
+        border-right:1px solid #A9A9A9 ;
+        border-bottom:1px solid #A9A9A9 ;
+        
+        font-size: 13px;
+        .m_top{
+            height: 40px;
+            width: 100%;
+            background-color: #FFFFFF;
+            float: left;
+            li{
+                height:30px;
+                width: 70px;
+               background-color:#EFF1F0;
+                display: block;
+                border-right: 1px solid #A9A9A9;
+                border-radius: 2px;
+                float: left;
+                cursor: pointer;
+                text-align: center;
+                padding-top: 10px;
+            }
+        }
+        .m_middle{
+            height: 189px;
+            width: 100%;
+//          background-color: antiquewhite;
+            float: left;
+            .d_m{
+                display: none;
+                
+            }
+            .m3{
+                .gametiltle{
+                    float: left;
+                    width:89px;
+                    height: 16px;
+//                  border: 1px solid;
+                    overflow: hidden;
+                    text-align: center;
+                }
+                li{
+                     height: 12px;
+                     margin:10px 5px;
+                }
+                .m3_li2{
+                    margin:10px 17px;
+                }
+                span{
+                    display: block;
+                    float: left;
+                }
+            }
+           .m1{
+               li{
+                height: 20px;
+                margin:10px 5px;
+                a{
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+            }}
+        }
+        .m_bottom{
+            height: 70px;
+            width: 100%;
+//          background-color: #FFA500;
+            float: left;
+            border-top: 1px dashed #A9A9A9;
+            table{
+            margin-left: 5px;
+            td{
+                height: 30px;
+                width: 400px;
+                span{
+                    font-weight: 600;
+                }
+            }
+        }
+        }
+    }
+    .right{
+        height: 300px;
+        width: 90px;
+//      background-color: #FFA500;
+        float: right;
+        a{
+            display: none;
+        }
+    }
+    .bottom{
+        height: 90px;
+        width: 100%;
+//      background-color: blueviolet;
+        float: left;
+        margin-top: 10px;
+        
+    }
+}
+
+/**************************主体部分***************************************/
+//主体部分**************************************************************************
+.gamecatgary{
+    float:left;
+    width: 100%;
+    height: 38px;
+//  background-color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    
+    span{
+        display: block;
+        float: left;
+        height: 16px;
+        width: 58px;
+        background-image: url(../img/3dmIndex_32.jpg);
+        padding: 11px 9px;
+        
+        }
+    li{
+        float: left;
+        height: 28px;
+        width: 76px;
+        background-color:#F8F8F8;
+        border-right: 1px solid #A9A9A9;
+        text-align: center;
+        padding-top: 10px;
+    }
+       
+}
+
+
+
+.ma_left{
+    width:310px ;
+    height: 1842px;
+//  background-color: orange;
+    float: left;
+    margin-right: 10px;
+    
+    
+    .ma_left0{
+        height:300px;
+        width: 310px;
+        border: 1px solid gainsboro;
+        margin-bottom: 10px;
+        font-size: 13px;
+        .ma_left0_top{
+            height:33px;
+            width: 100%;
+            background-color: #FAFAFA;
+            border-bottom: 1px solid gainsboro;
+
+                h3{
+                    display: block;
+                    float: left;
+                    margin: 7px 0 0 5px;
+                        
+                }
+                span{
+                        display: block;
+                        float: right;
+                        margin: 7px;
+                }
+
+        }
+        .ma_left0_center{
+            height: 136px;
+            width: 100%;
+            border-bottom: 1px solid gainsboro;
+            ul{
+                margin-left: 10px;
+            li{
+                  width: 124px;
+                  display: block;
+                  float: left;
+                  margin: 10px 10px 0 10px;
+                  text-align: center;
+                img{
+                    height: 92px;
+                    width: 123px;
+                }
+            }
+            
+        }}
+        .ma_left0_bot{
+            li{
+                margin: 10px 0px 0px 10px;
+                a:hover{
+                    color: red;
+                }
+            }
+        }
+    }
+    
+    
+    .ma_left01{
+        height:280px;
+        .left01_top{
+            display: none;
+            
+        img{
+            height: 252px;
+            width: 310px;
+        }
+        }
+        
+        .left01_bot{
+            li{
+                height: 28px;
+                width: 61px;
+                border-right:1px solid gainsboro ;
+                float:left;
+                text-align: center;
+                margin-top: -3px;
+                a{
+                    display: block;
+                    margin-top: 5px;
+                }
+                a:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+    }   
+    .ma_left06_center{
+    height: 136px;
+            width: 100%;
+
+            ul{
+                margin-left: 10px;
+            li{
+                  width: 124px;
+                  display: block;
+                  float: left;
+                  margin: 10px 10px 10px 10px;
+                  text-align: center;
+                img{
+                    height: 92px;
+                    width: 123px;
+                }
+            }
+            
+        }
+}
+}
+
+
+//中间的中间部分
+
+.ma_middle{
+    width:400px ;
+    height: 1842px;
+//  background-color:greenyellow;
+    border: 1px solid gainsboro;
+    float: left;
+    .ma_middle_top{
+             float: left;
+        
+        li{
+            background-color: #F9F9F9;
+            border-right:1px solid  gainsboro;
+            width: 99px;
+            height: 26px;
+            float: left;
+            text-align: center;
+            padding-top: 7px;
+            cursor: pointer;
+        }
+        .middleTopLi{
+            display: block;
+        }
+
+    }
+    
+    .ma_maddle_center{
+         float: left;
+         width: 100%;
+         display: none;
+         height: 1496px;
+        .ma_maddle_center1{
+            width: 100%;
+            height:118px;
+            border-bottom: 1px solid gainsboro;
+
+            .c1t{
+                padding-top: 10px;
+                width: 100%;
+                height:45px;
+                span{
+                    font-size: 13px;
+                    a{
+                        margin:0px 0 0 10px;
+                        ;
+                    }
+                }
+            } 
+
+            
+    }
+    .ma_maddle_center0{
+        width: 100%;
+        height: 182px;
+        border-bottom: 1px solid gainsboro;
+        font-size: 15px;
+        li{
+            margin-top: 13px;
+            span{
+                margin: 0 10px;
+            }
+            a:hover{
+            color: red;
+        }
+        }
+        
+    }
+    .ma_maddle_center2{
+        width: 100%;
+        height: 130px;
+        border-bottom: 1px solid gainsboro;
+        font-size: 15px;
+        li{
+            margin-top: 13px;
+            span{
+                margin: 0 10px;
+            }
+            a:hover{
+            color: red;
+        }
+        }
+        
+    }
+    
+    .page1{
+        display: none;
+    } 
+    .page1_2{
+        height: 1319px;
+        width: 100px;
+    }
+    .pagecode{
+        float: left;
+         width: 100%;
+        li{
+            height: 42px;
+            width: 133px;
+            background-color: #EFEFEF;
+            
+            float: left;
+            text-align: center;
+            padding-top:14px ;
+            cursor: pointer;
+            border-top: 1px solid #EFEFEF;
+            border-bottom: 1px solid #EFEFEF;
+            
+            .span{
+                display: none;
+            }
+            
+        }
+    }   
+}
+
+
+
+
+    .ma_maddle_bot{
+        height:302px;
+        width: 100%;
+        border-top:1px solid  gainsboro;
+        float: left;
+        margin-top: 10px;
+//      background-color:#A9A9A9;
+        font-size: 13px;
+        .ma_maddle_bot_top{
+            height:33px;
+            width: 100%;
+            background-color: #FAFAFA;
+            border-bottom: 1px solid gainsboro;
+                h3{
+                    display: block;
+                    float: left;
+                    margin: 7px 0 0 5px;
+                        
+                }
+                span{
+                        display: block;
+                        float: right;
+                        margin: 7px;
+                }
+        }
+        .ma_maddle_bot_bot{
+            ul{
+                margin-left:7px ;
+                
+            li{
+                width: 124px;
+                margin: 10px 7px 10px 0;
+                float: left;
+                img{
+                    height: 92px;
+                    width: 123px;
+                }
+            }
+        }}
+          
+    }
+
+
+
+}
+
+
+
+
+.ma_right{
+    margin-left: 10px;
+    width:267px ;
+    height: 1842px;
+//  background-color:yellow;
+    float: left;
+    font-size: 13px;
+    .maRight01{
+        img{
+            border: 1px solid gainsboro;
+            height: 378px;
+            width: 265px;
+        }
+        
+    }
+    .maRight02{
+        width: 267px;
+        height: 277px;
+        border: 1px solid gainsboro;
+        margin-top: 10px;
+        .maRight02Top{
+            height: 33px;
+            background-color: #FAFAFA;
+            h3{
+                padding: 7px 0 0 10px;
+            }
+        }
+        .maRight02Bot{
+            table{
+            width: 267px;
+            .tdSpan1{
+                background-color: #CF3500;
+                border-radius: 2px;
+                color: white;
+            }
+            .tdSpan2{
+                background-color: #A9A9A9;
+                border-radius: 2px;
+                color: white;    
+            }
+            }
+        }
+    }
+    .maRightTop{
+            height: 33px;
+            background-color: #FAFAFA;
+            h3{
+                padding: 7px 0 0 10px;
+            }
+            span{
+                display: block;
+                float: right;
+                margin-top:-16px ;
+            }
+        }
+    .maRightMiddle{
+                border-bottom: 1px solid gainsboro;
+                height: 147px;
+           ul{
+               margin-left: 7px;
+                
+               li{
+                   width: 123px;
+                   height:125px;
+                   float: left;
+                   margin: 10px 7px 10px 0;
+                   overflow: hidden;
+                   
+                   img{
+                       width: 123px;
+                       height: 92px;
+                   }
+               }
+           }
+       }
+    .maRightBot{
+            ul{
+                margin-top: 8px;
+                margin-left: 2px;
+                li{
+                    line-height: 23px;
+                }
+            }
+           
+        }
+    .maRight03{
+        width: 267px;
+        height: 335px;
+        border: 1px solid gainsboro;
+        margin-top: 10px;
+        
+       
+    }
+    .maRight04{
+        width: 267px;
+        height: 425px;
+        border: 1px solid gainsboro;
+        margin-top: 10px;
+   
+    }
+    .maRight05{
+        width: 267px;
+        height: 375px;
+        border: 1px solid gainsboro;
+        margin-top: 10px;
+        margin-bottom: 10px;
+   
+    }
+    
+    
+}
+//各项大标题*******************************************************
+.gameTitle{
+        height: 50px;
+        width: 100%;
+        border: 1px solid gainsboro;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: left;
+        p{
+            display: block;
+            float: right;
+            margin-top: 15px;
+            margin-right: 10px;
+        }
+    }
+//游戏下载+攻略秘籍+游戏库各小项的标题*******************************************************************************
+.StyleLittleTitle{
+            width: 100%;
+            height: 37px;
+            border-bottom: 1px solid gainsboro;
+            h3{
+                display: block;
+                float: left;
+                height: 24px;
+                margin-left: 10px;
+                margin-top: 10px;
+                border-bottom: 3px solid #6CBC49; 
+            }
+            span{
+                display: block;
+                float: right;
+                margin-top: 10px;
+                margin-right: 5px;
+                
+            }
+        }
+//颜色*******************************************************************************
+             .liColor1{
+                background-color: white;
+
+            }
+            .liColor2{
+                background-color: #F5F5F5;
+            }
+//游戏下载*******************************************************************************
+            
+.gameDownload{
+    font-size: 13px;
+    
+    .gameDownloadStyle{
+        height: 361px;
+        width: 354px;
+        border: 1px solid gainsboro;
+        margin-right: 10px;
+
+        float: left;
+        
+        .gameDownloadStyleTop{
+            height: 151px;
+            width: 356px;
+            border-bottom:1px dashed gainsboro ;
+            ul{
+                margin-left: 20px;
+                li{
+                    width: 148px;
+                    height: 135px;
+                    float: left;
+                    margin: 10px 20px 10px 0;
+                   
+                    span{
+                        display: block;
+                        float: left;
+                        height: 113px;
+                        width: 138px;
+                        border: 1px solid gainsboro;
+                        margin-bottom: 5px;
+                        img{
+                            height: 109px;
+                            width: 134px;
+                            margin: 2px;
+                        }
+                    }
+                    p{
+                        height:15px;
+                        width: 142px;
+                        overflow: hidden;
+                        text-align: center;    
+                    }
+                    
+                }
+            }
+        }
+        .gameDownloadStyleBot{
+            ul{
+                li{
+                    line-height: 23px;
+                    margin-left: 15px;
+                }
+            }
+        }
+        
+    }
+    .gameRight{
+        width: 266px;
+        height: 361px;
+        border: 1px solid gainsboro;
+        float: left;
+        .gameRightBot{
+            li{
+                height: 32px;
+                width: 254px;
+                overflow: hidden;
+                line-height: 32px;
+                padding-left: 10px;
+                span{
+                    display: block;
+                    height: 13px;
+                    width: 13px;
+                    line-height: 13px; 
+                    text-align: center;
+                    margin-top: 10px; 
+                }
+                a{
+                    margin:-21px 0 0 15px;
+                    float: left;
+                    width: 200px;
+                    height: 100%;
+                    
+                    
+                }
+                .tdSpan1{
+                background-color: #CF3500;
+                border-radius: 2px;
+                color: white;
+                }
+                 .tdSpan2{
+                background-color: #A9A9A9;
+                border-radius: 2px;
+                color: white;    
+                 }
+            }
+            
+        }
+           
+    }
+    .gameRight2 {
+        .gameRightBot2{
+            table{
+              width: 266px;  
+              height:175px;
+              i{
+                  display: block;
+                  float: left;
+                  width: 0;
+                  height: 0;
+                  border-top:5px solid white;
+                  border-left:5px solid gray;
+                  border-right:5px solid white;
+                  border-bottom:5px solid white;
+                  margin-left: 5px;  
+                  margin-top: 2px;
+              }
+              a{
+                  display: block;
+                  float: left;
+              }
+            }
+            img{
+                margin: 9px 8px;
+            }
+         }
+    }
+}
+//游戏库*************************************************************************************************
+.gamewarehouse{
+    font-size: 13px;
+    .gamewarehouseLeft{
+        height: 455px;
+        width: 723px;
+        border: 1px solid gainsboro;
+        float: left;
+        margin: 0 10px 10px 0;
+        .gamewarehouseTitle{
+             width: 100%;
+            height: 37px;
+            border-bottom: 1px solid gainsboro;
+//          margin-bottom: 10px;
+            h3{
+                display: block;
+                float: left;
+                height: 24px;
+                margin-left: 10px;
+                margin-top: 10px;
+                border-bottom: 3px solid #2389d3; 
+            }
+            a{
+                
+                span{
+                display: block;
+                float: right;
+                margin-top: 10px;
+                margin-right: 5px;
+                
+                 }
+            }
+
+        }
+        .specialLi{
+            height: 390px;
+            width: 221px;
+            border: 1px solid gainsboro;
+            margin: 10px;
+            background-color:#F2F2F2 ;
+            float: left;
+            .in{
+                margin: 10px;
+                border: 1px solid #DEDEDE;
+                width: 200px;
+                height: 372px;
+                background-color: white;
+                h2{
+                    color: #3F6098;
+                    text-align: center;
+                    margin-top: -5px;
+                }
+                img{
+                    width: 185px;
+                    height: 252px;
+                    margin: 8px;
+                }
+                ul{
+                    margin-left: 10px;
+                }
+                li{
+                    float: left;
+                    padding: 3px;
+                    border-radius: 3px;
+                    
+                }
+                
+            }
+            td{
+                width: 110px;
+                height: 220px;
+                img{
+                    height: 146px;
+                    width: 106px;
+                }
+            }
+        }
+        .commonLi{
+            height: 190px;
+            width: 110px;
+            float: left;
+            margin-right: 9px;
+            margin-top: 10px;
+            text-align: center;
+            img{
+                height: 146px;
+                width: 106px;  
+                margin-top: 2px;  
+            }
+            .border{
+                float: left;
+                height: 150px;
+                width: 110px;
+                border: 1px solid gainsboro;
+            }
+            span{
+                width: 110px;height: 20px;
+                overflow: hidden;
+            }
+            a{
+                margin-left: -8px;
+            }
+            i{
+                font-style: normal;
+            }
+        }
+    }
+    .gamewarehouseRight{
+        width: 263px;
+        height: 455px;
+        border: 1px solid gainsboro;
+        float: left;
+        .gamewarehouseTitle{
+             width: 100%;
+            height: 37px;
+            border-bottom: 1px solid gainsboro;
+//          margin-bottom: 10px;
+            h3{
+                display: block;
+                float: left;
+                height: 24px;
+                margin-left: 10px;
+                margin-top: 10px;
+                border-bottom: 3px solid #2389d3; 
+            }
+            a{
+                
+                span{
+                display: block;
+                float: right;
+                margin-top: 10px;
+                margin-right: 5px;
+                
+                 }
+            }
+
+        }
+        table{
+            height: 143px;
+            width: 165px;
+        }
+        ul{
+            width: 100%;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+            height:26px;
+            width: 100%;
+            line-height: 25px;
+            padding-left: 10px;
+            i{
+                color: orange;
+                font-size: 18px;
+                font-weight: 600;
+                margin-left: 5px;
+                display: block;
+                float: left;
+            }
+            span{
+                height: 20px;
+                width: 130px;
+                overflow: hidden;  
+                display: block;
+                float: left;  
+                margin-left: 20px;      
+            }
+            em{
+                font-style: normal;
+            }
+                
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//底部*************************************************************************************************
+.bot1{
+    font-size: 13px;
+    float: left;
+    height: 170px;
+    width: 100%;
+    .bot1_1{
+        height: 37px;
+        border-bottom: 1px solid gainsboro;
+        h3{
+            width: 63px;
+            height: 25px;
+            border-bottom: 3px solid #2389D3; 
+            padding-top: 10px;
+            
+        }
+        
+    }
+    .bot1_2{
+        height: 180px;
+        width: 100%;
+        border-bottom: 1px solid #2389D3;
+        a{
+            line-height: 42px;
+            margin-right: 10px;
+        }
+        a:hover{
+            color: red;
+        }
+        
+    }
+
+}
+
+.bot2{
+    float: left;
+    margin-top: 50px;
+    font-size: 13px;
+    margin-left: 250px;
+    li{
+        text-align: center;
+    }
+}
+
+
+
+.floatleft{
+    position: fixed;
+    float: left;
+    height: 2000px;
+    width: 150px;
+    border:1px solid gainsboro;
+    
+    top: 0px;
+}
+
+.floatright{
+    position: fixed;
+    float: right;
+    height: 2000px;
+    width: 150px;
+    border:1px solid gainsboro;
+    right: 0px;
+    top: 0px;
+}
+

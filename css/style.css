@@ -1,0 +1,1005 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+li {
+  list-style: none;
+}
+body {
+  min-width: 1300px;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  text-decoration: underline;
+}
+.red {
+  color: red;
+}
+.blue {
+  color: #177BA1;
+}
+.main {
+  width: 1000px;
+  height: 4000px;
+  margin: 0px 174px ;
+}
+/**************************上部（顶部+搜索+导航1+导航2+广告）***************************************/
+.top {
+  height: 33px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.top .left {
+  width: 111px;
+  height: 36px;
+  background-color: #1095c2;
+  text-align: center;
+  display: block;
+  float: left;
+}
+.top .left a {
+  width: 111px;
+  height: 35px;
+  display: block;
+  color: white;
+  font-size: 14px;
+  padding-top: 7px;
+}
+.top .left a:hover {
+  text-decoration: underline;
+}
+.top .right li {
+  display: block;
+  float: right;
+}
+.top .right li a {
+  display: block;
+  height: 23px;
+  color: #FFFFFF;
+  font-size: 10px;
+  text-align: center;
+  padding: 7px 15px;
+}
+.top .right li a:hover {
+  background-color: #1095c2;
+  text-decoration: underline;
+}
+.top .right li span {
+  display: block;
+  margin-top: 5px;
+}
+.search {
+  height: 88px;
+  width: 100%;
+  float: left;
+}
+.search img {
+  width: 278px;
+  height: 70px;
+  float: left;
+}
+.search .list .button {
+  background-image: url(../img/search.jpg);
+  width: 80px;
+  height: 32px;
+  border: 1px solid orange;
+}
+.search .list .text {
+  width: 317px;
+  height: 30px;
+  color: darkgrey;
+  border: 1px solid orange;
+}
+.search .list input {
+  border: none;
+  float: right;
+  margin-top: 28px;
+}
+.search .list select {
+  float: right;
+  margin: 28px 2px 0px 0px;
+  height: 32px;
+  width: 62px;
+  font-size: 15px;
+}
+.search .example {
+  display: block;
+  float: right;
+  font-size: 13px;
+  margin-top: 6px;
+}
+.search .example a:hover {
+  text-decoration: underline;
+}
+.nav1 {
+  height: 30px;
+  width: 100%;
+  background-color: #1095c2;
+  float: left;
+  padding-top: 10px;
+}
+.nav1 a {
+  margin: 0px 5px ;
+  font-size: 14px;
+  padding-left: 12px;
+  color: white;
+}
+.nav1 a:hover {
+  text-decoration: underline;
+}
+.nav2 {
+  height: 25px;
+  width: 100%;
+  background-color: black;
+  float: left;
+}
+.nav2 ul {
+  margin-left: 15px;
+}
+.nav2 ul li {
+  display: block;
+  float: left;
+}
+.nav2 ul li a {
+  display: block;
+  height: 10px;
+  color: #FFFFFF;
+  font-size: 10px;
+  text-align: center;
+  padding: 6px 4px;
+}
+.nav2 ul li a:hover {
+  text-decoration: underline;
+}
+.nav2 ul li span {
+  display: block;
+  margin-top: 6px;
+  color: #A9A9A9;
+  font-size: 10px;
+}
+.nav2 .red {
+  color: red;
+}
+.advert {
+  margin-top: 10px;
+  height: 120px;
+  width: 100%;
+  float: left;
+  font-size: 15px;
+}
+.advert ul {
+  margin-left: 5px;
+}
+.advert li {
+  width: 100px;
+  margin: 0px 5px;
+  text-align: center;
+  float: left;
+}
+.advert img {
+  width: 100px;
+  height: 100px;
+  border: 0px solid black;
+}
+.game {
+  width: 100%;
+  height: 300px;
+  float: left;
+  margin-top: 10px;
+}
+.game .left {
+  height: 300px;
+  width: 90px;
+  float: left;
+}
+.game .left a {
+  display: none;
+}
+.game .middle {
+  height: 299px;
+  width: 800px;
+  float: left;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-left: 1px solid #A9A9A9 ;
+  border-right: 1px solid #A9A9A9 ;
+  border-bottom: 1px solid #A9A9A9 ;
+  font-size: 13px;
+}
+.game .middle .m_top {
+  height: 40px;
+  width: 100%;
+  background-color: #FFFFFF;
+  float: left;
+}
+.game .middle .m_top li {
+  height: 30px;
+  width: 70px;
+  background-color: #EFF1F0;
+  display: block;
+  border-right: 1px solid #A9A9A9;
+  border-radius: 2px;
+  float: left;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 10px;
+}
+.game .middle .m_middle {
+  height: 189px;
+  width: 100%;
+  float: left;
+}
+.game .middle .m_middle .d_m {
+  display: none;
+}
+.game .middle .m_middle .m3 .gametiltle {
+  float: left;
+  width: 89px;
+  height: 16px;
+  overflow: hidden;
+  text-align: center;
+}
+.game .middle .m_middle .m3 li {
+  height: 12px;
+  margin: 10px 5px;
+}
+.game .middle .m_middle .m3 .m3_li2 {
+  margin: 10px 17px;
+}
+.game .middle .m_middle .m3 span {
+  display: block;
+  float: left;
+}
+.game .middle .m_middle .m1 li {
+  height: 20px;
+  margin: 10px 5px;
+}
+.game .middle .m_middle .m1 li a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.game .middle .m_bottom {
+  height: 70px;
+  width: 100%;
+  float: left;
+  border-top: 1px dashed #A9A9A9;
+}
+.game .middle .m_bottom table {
+  margin-left: 5px;
+}
+.game .middle .m_bottom table td {
+  height: 30px;
+  width: 400px;
+}
+.game .middle .m_bottom table td span {
+  font-weight: 600;
+}
+.game .right {
+  height: 300px;
+  width: 90px;
+  float: right;
+}
+.game .right a {
+  display: none;
+}
+.game .bottom {
+  height: 90px;
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+/**************************主体部分***************************************/
+.gamecatgary {
+  float: left;
+  width: 100%;
+  height: 38px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.gamecatgary span {
+  display: block;
+  float: left;
+  height: 16px;
+  width: 58px;
+  background-image: url(../img/3dmIndex_32.jpg);
+  padding: 11px 9px;
+}
+.gamecatgary li {
+  float: left;
+  height: 28px;
+  width: 76px;
+  background-color: #F8F8F8;
+  border-right: 1px solid #A9A9A9;
+  text-align: center;
+  padding-top: 10px;
+}
+.ma_left {
+  width: 310px ;
+  height: 1842px;
+  float: left;
+  margin-right: 10px;
+}
+.ma_left .ma_left0 {
+  height: 300px;
+  width: 310px;
+  border: 1px solid gainsboro;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.ma_left .ma_left0 .ma_left0_top {
+  height: 33px;
+  width: 100%;
+  background-color: #FAFAFA;
+  border-bottom: 1px solid gainsboro;
+}
+.ma_left .ma_left0 .ma_left0_top h3 {
+  display: block;
+  float: left;
+  margin: 7px 0 0 5px;
+}
+.ma_left .ma_left0 .ma_left0_top span {
+  display: block;
+  float: right;
+  margin: 7px;
+}
+.ma_left .ma_left0 .ma_left0_center {
+  height: 136px;
+  width: 100%;
+  border-bottom: 1px solid gainsboro;
+}
+.ma_left .ma_left0 .ma_left0_center ul {
+  margin-left: 10px;
+}
+.ma_left .ma_left0 .ma_left0_center ul li {
+  width: 124px;
+  display: block;
+  float: left;
+  margin: 10px 10px 0 10px;
+  text-align: center;
+}
+.ma_left .ma_left0 .ma_left0_center ul li img {
+  height: 92px;
+  width: 123px;
+}
+.ma_left .ma_left0 .ma_left0_bot li {
+  margin: 10px 0px 0px 10px;
+}
+.ma_left .ma_left0 .ma_left0_bot li a:hover {
+  color: red;
+}
+.ma_left .ma_left01 {
+  height: 280px;
+}
+.ma_left .ma_left01 .left01_top {
+  display: none;
+}
+.ma_left .ma_left01 .left01_top img {
+  height: 252px;
+  width: 310px;
+}
+.ma_left .ma_left01 .left01_bot li {
+  height: 28px;
+  width: 61px;
+  border-right: 1px solid gainsboro ;
+  float: left;
+  text-align: center;
+  margin-top: -3px;
+}
+.ma_left .ma_left01 .left01_bot li a {
+  display: block;
+  margin-top: 5px;
+}
+.ma_left .ma_left01 .left01_bot li a:hover {
+  text-decoration: none;
+}
+.ma_left .ma_left06_center {
+  height: 136px;
+  width: 100%;
+}
+.ma_left .ma_left06_center ul {
+  margin-left: 10px;
+}
+.ma_left .ma_left06_center ul li {
+  width: 124px;
+  display: block;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+}
+.ma_left .ma_left06_center ul li img {
+  height: 92px;
+  width: 123px;
+}
+.ma_middle {
+  width: 400px ;
+  height: 1842px;
+  border: 1px solid gainsboro;
+  float: left;
+}
+.ma_middle .ma_middle_top {
+  float: left;
+}
+.ma_middle .ma_middle_top li {
+  background-color: #F9F9F9;
+  border-right: 1px solid  gainsboro;
+  width: 99px;
+  height: 26px;
+  float: left;
+  text-align: center;
+  padding-top: 7px;
+  cursor: pointer;
+}
+.ma_middle .ma_middle_top .middleTopLi {
+  display: block;
+}
+.ma_middle .ma_maddle_center {
+  float: left;
+  width: 100%;
+  display: none;
+  height: 1496px;
+}
+.ma_middle .ma_maddle_center .ma_maddle_center1 {
+  width: 100%;
+  height: 118px;
+  border-bottom: 1px solid gainsboro;
+}
+.ma_middle .ma_maddle_center .ma_maddle_center1 .c1t {
+  padding-top: 10px;
+  width: 100%;
+  height: 45px;
+}
+.ma_middle .ma_maddle_center .ma_maddle_center1 .c1t span {
+  font-size: 13px;
+}
+.ma_middle .ma_maddle_center .ma_maddle_center1 .c1t span a {
+  margin: 0px 0 0 10px;
+}
+.ma_middle .ma_maddle_center .ma_maddle_center0 {
+  width: 100%;
+  height: 182px;
+  border-bottom: 1px solid gainsboro;
+  font-size: 15px;
+}
+.ma_middle .ma_maddle_center .ma_maddle_center0 li {
+  margin-top: 13px;
+}
+.ma_middle .ma_maddle_center .ma_maddle_center0 li span {
+  margin: 0 10px;
+}
+.ma_middle .ma_maddle_center .ma_maddle_center0 li a:hover {
+  color: red;
+}
+.ma_middle .ma_maddle_center .ma_maddle_center2 {
+  width: 100%;
+  height: 130px;
+  border-bottom: 1px solid gainsboro;
+  font-size: 15px;
+}
+.ma_middle .ma_maddle_center .ma_maddle_center2 li {
+  margin-top: 13px;
+}
+.ma_middle .ma_maddle_center .ma_maddle_center2 li span {
+  margin: 0 10px;
+}
+.ma_middle .ma_maddle_center .ma_maddle_center2 li a:hover {
+  color: red;
+}
+.ma_middle .ma_maddle_center .page1 {
+  display: none;
+}
+.ma_middle .ma_maddle_center .page1_2 {
+  height: 1319px;
+  width: 100px;
+}
+.ma_middle .ma_maddle_center .pagecode {
+  float: left;
+  width: 100%;
+}
+.ma_middle .ma_maddle_center .pagecode li {
+  height: 42px;
+  width: 133px;
+  background-color: #EFEFEF;
+  float: left;
+  text-align: center;
+  padding-top: 14px ;
+  cursor: pointer;
+  border-top: 1px solid #EFEFEF;
+  border-bottom: 1px solid #EFEFEF;
+}
+.ma_middle .ma_maddle_center .pagecode li .span {
+  display: none;
+}
+.ma_middle .ma_maddle_bot {
+  height: 302px;
+  width: 100%;
+  border-top: 1px solid  gainsboro;
+  float: left;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.ma_middle .ma_maddle_bot .ma_maddle_bot_top {
+  height: 33px;
+  width: 100%;
+  background-color: #FAFAFA;
+  border-bottom: 1px solid gainsboro;
+}
+.ma_middle .ma_maddle_bot .ma_maddle_bot_top h3 {
+  display: block;
+  float: left;
+  margin: 7px 0 0 5px;
+}
+.ma_middle .ma_maddle_bot .ma_maddle_bot_top span {
+  display: block;
+  float: right;
+  margin: 7px;
+}
+.ma_middle .ma_maddle_bot .ma_maddle_bot_bot ul {
+  margin-left: 7px ;
+}
+.ma_middle .ma_maddle_bot .ma_maddle_bot_bot ul li {
+  width: 124px;
+  margin: 10px 7px 10px 0;
+  float: left;
+}
+.ma_middle .ma_maddle_bot .ma_maddle_bot_bot ul li img {
+  height: 92px;
+  width: 123px;
+}
+.ma_right {
+  margin-left: 10px;
+  width: 267px ;
+  height: 1842px;
+  float: left;
+  font-size: 13px;
+}
+.ma_right .maRight01 img {
+  border: 1px solid gainsboro;
+  height: 378px;
+  width: 265px;
+}
+.ma_right .maRight02 {
+  width: 267px;
+  height: 277px;
+  border: 1px solid gainsboro;
+  margin-top: 10px;
+}
+.ma_right .maRight02 .maRight02Top {
+  height: 33px;
+  background-color: #FAFAFA;
+}
+.ma_right .maRight02 .maRight02Top h3 {
+  padding: 7px 0 0 10px;
+}
+.ma_right .maRight02 .maRight02Bot table {
+  width: 267px;
+}
+.ma_right .maRight02 .maRight02Bot table .tdSpan1 {
+  background-color: #CF3500;
+  border-radius: 2px;
+  color: white;
+}
+.ma_right .maRight02 .maRight02Bot table .tdSpan2 {
+  background-color: #A9A9A9;
+  border-radius: 2px;
+  color: white;
+}
+.ma_right .maRightTop {
+  height: 33px;
+  background-color: #FAFAFA;
+}
+.ma_right .maRightTop h3 {
+  padding: 7px 0 0 10px;
+}
+.ma_right .maRightTop span {
+  display: block;
+  float: right;
+  margin-top: -16px;
+}
+.ma_right .maRightMiddle {
+  border-bottom: 1px solid gainsboro;
+  height: 147px;
+}
+.ma_right .maRightMiddle ul {
+  margin-left: 7px;
+}
+.ma_right .maRightMiddle ul li {
+  width: 123px;
+  height: 125px;
+  float: left;
+  margin: 10px 7px 10px 0;
+  overflow: hidden;
+}
+.ma_right .maRightMiddle ul li img {
+  width: 123px;
+  height: 92px;
+}
+.ma_right .maRightBot ul {
+  margin-top: 8px;
+  margin-left: 2px;
+}
+.ma_right .maRightBot ul li {
+  line-height: 23px;
+}
+.ma_right .maRight03 {
+  width: 267px;
+  height: 335px;
+  border: 1px solid gainsboro;
+  margin-top: 10px;
+}
+.ma_right .maRight04 {
+  width: 267px;
+  height: 425px;
+  border: 1px solid gainsboro;
+  margin-top: 10px;
+}
+.ma_right .maRight05 {
+  width: 267px;
+  height: 375px;
+  border: 1px solid gainsboro;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.gameTitle {
+  height: 50px;
+  width: 100%;
+  border: 1px solid gainsboro;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+.gameTitle p {
+  display: block;
+  float: right;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.StyleLittleTitle {
+  width: 100%;
+  height: 37px;
+  border-bottom: 1px solid gainsboro;
+}
+.StyleLittleTitle h3 {
+  display: block;
+  float: left;
+  height: 24px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-bottom: 3px solid #6CBC49;
+}
+.StyleLittleTitle span {
+  display: block;
+  float: right;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.liColor1 {
+  background-color: white;
+}
+.liColor2 {
+  background-color: #F5F5F5;
+}
+.gameDownload {
+  font-size: 13px;
+}
+.gameDownload .gameDownloadStyle {
+  height: 361px;
+  width: 354px;
+  border: 1px solid gainsboro;
+  margin-right: 10px;
+  float: left;
+}
+.gameDownload .gameDownloadStyle .gameDownloadStyleTop {
+  height: 151px;
+  width: 356px;
+  border-bottom: 1px dashed gainsboro ;
+}
+.gameDownload .gameDownloadStyle .gameDownloadStyleTop ul {
+  margin-left: 20px;
+}
+.gameDownload .gameDownloadStyle .gameDownloadStyleTop ul li {
+  width: 148px;
+  height: 135px;
+  float: left;
+  margin: 10px 20px 10px 0;
+}
+.gameDownload .gameDownloadStyle .gameDownloadStyleTop ul li span {
+  display: block;
+  float: left;
+  height: 113px;
+  width: 138px;
+  border: 1px solid gainsboro;
+  margin-bottom: 5px;
+}
+.gameDownload .gameDownloadStyle .gameDownloadStyleTop ul li span img {
+  height: 109px;
+  width: 134px;
+  margin: 2px;
+}
+.gameDownload .gameDownloadStyle .gameDownloadStyleTop ul li p {
+  height: 15px;
+  width: 142px;
+  overflow: hidden;
+  text-align: center;
+}
+.gameDownload .gameDownloadStyle .gameDownloadStyleBot ul li {
+  line-height: 23px;
+  margin-left: 15px;
+}
+.gameDownload .gameRight {
+  width: 266px;
+  height: 361px;
+  border: 1px solid gainsboro;
+  float: left;
+}
+.gameDownload .gameRight .gameRightBot li {
+  height: 32px;
+  width: 254px;
+  overflow: hidden;
+  line-height: 32px;
+  padding-left: 10px;
+}
+.gameDownload .gameRight .gameRightBot li span {
+  display: block;
+  height: 13px;
+  width: 13px;
+  line-height: 13px;
+  text-align: center;
+  margin-top: 10px;
+}
+.gameDownload .gameRight .gameRightBot li a {
+  margin: -21px 0 0 15px;
+  float: left;
+  width: 200px;
+  height: 100%;
+}
+.gameDownload .gameRight .gameRightBot li .tdSpan1 {
+  background-color: #CF3500;
+  border-radius: 2px;
+  color: white;
+}
+.gameDownload .gameRight .gameRightBot li .tdSpan2 {
+  background-color: #A9A9A9;
+  border-radius: 2px;
+  color: white;
+}
+.gameDownload .gameRight2 .gameRightBot2 table {
+  width: 266px;
+  height: 175px;
+}
+.gameDownload .gameRight2 .gameRightBot2 table i {
+  display: block;
+  float: left;
+  width: 0;
+  height: 0;
+  border-top: 5px solid white;
+  border-left: 5px solid gray;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+.gameDownload .gameRight2 .gameRightBot2 table a {
+  display: block;
+  float: left;
+}
+.gameDownload .gameRight2 .gameRightBot2 img {
+  margin: 9px 8px;
+}
+.gamewarehouse {
+  font-size: 13px;
+}
+.gamewarehouse .gamewarehouseLeft {
+  height: 455px;
+  width: 723px;
+  border: 1px solid gainsboro;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+.gamewarehouse .gamewarehouseLeft .gamewarehouseTitle {
+  width: 100%;
+  height: 37px;
+  border-bottom: 1px solid gainsboro;
+}
+.gamewarehouse .gamewarehouseLeft .gamewarehouseTitle h3 {
+  display: block;
+  float: left;
+  height: 24px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-bottom: 3px solid #2389d3;
+}
+.gamewarehouse .gamewarehouseLeft .gamewarehouseTitle a span {
+  display: block;
+  float: right;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.gamewarehouse .gamewarehouseLeft .specialLi {
+  height: 390px;
+  width: 221px;
+  border: 1px solid gainsboro;
+  margin: 10px;
+  background-color: #F2F2F2 ;
+  float: left;
+}
+.gamewarehouse .gamewarehouseLeft .specialLi .in {
+  margin: 10px;
+  border: 1px solid #DEDEDE;
+  width: 200px;
+  height: 372px;
+  background-color: white;
+}
+.gamewarehouse .gamewarehouseLeft .specialLi .in h2 {
+  color: #3F6098;
+  text-align: center;
+  margin-top: -5px;
+}
+.gamewarehouse .gamewarehouseLeft .specialLi .in img {
+  width: 185px;
+  height: 252px;
+  margin: 8px;
+}
+.gamewarehouse .gamewarehouseLeft .specialLi .in ul {
+  margin-left: 10px;
+}
+.gamewarehouse .gamewarehouseLeft .specialLi .in li {
+  float: left;
+  padding: 3px;
+  border-radius: 3px;
+}
+.gamewarehouse .gamewarehouseLeft .specialLi td {
+  width: 110px;
+  height: 220px;
+}
+.gamewarehouse .gamewarehouseLeft .specialLi td img {
+  height: 146px;
+  width: 106px;
+}
+.gamewarehouse .gamewarehouseLeft .commonLi {
+  height: 190px;
+  width: 110px;
+  float: left;
+  margin-right: 9px;
+  margin-top: 10px;
+  text-align: center;
+}
+.gamewarehouse .gamewarehouseLeft .commonLi img {
+  height: 146px;
+  width: 106px;
+  margin-top: 2px;
+}
+.gamewarehouse .gamewarehouseLeft .commonLi .border {
+  float: left;
+  height: 150px;
+  width: 110px;
+  border: 1px solid gainsboro;
+}
+.gamewarehouse .gamewarehouseLeft .commonLi span {
+  width: 110px;
+  height: 20px;
+  overflow: hidden;
+}
+.gamewarehouse .gamewarehouseLeft .commonLi a {
+  margin-left: -8px;
+}
+.gamewarehouse .gamewarehouseLeft .commonLi i {
+  font-style: normal;
+}
+.gamewarehouse .gamewarehouseRight {
+  width: 263px;
+  height: 455px;
+  border: 1px solid gainsboro;
+  float: left;
+}
+.gamewarehouse .gamewarehouseRight .gamewarehouseTitle {
+  width: 100%;
+  height: 37px;
+  border-bottom: 1px solid gainsboro;
+}
+.gamewarehouse .gamewarehouseRight .gamewarehouseTitle h3 {
+  display: block;
+  float: left;
+  height: 24px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-bottom: 3px solid #2389d3;
+}
+.gamewarehouse .gamewarehouseRight .gamewarehouseTitle a span {
+  display: block;
+  float: right;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.gamewarehouse .gamewarehouseRight table {
+  height: 143px;
+  width: 165px;
+}
+.gamewarehouse .gamewarehouseRight ul {
+  width: 100%;
+  overflow: hidden;
+}
+.gamewarehouse .gamewarehouseRight li {
+  float: left;
+  height: 26px;
+  width: 100%;
+  line-height: 25px;
+  padding-left: 10px;
+}
+.gamewarehouse .gamewarehouseRight li i {
+  color: orange;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 5px;
+  display: block;
+  float: left;
+}
+.gamewarehouse .gamewarehouseRight li span {
+  height: 20px;
+  width: 130px;
+  overflow: hidden;
+  display: block;
+  float: left;
+  margin-left: 20px;
+}
+.gamewarehouse .gamewarehouseRight li em {
+  font-style: normal;
+}
+.bot1 {
+  font-size: 13px;
+  float: left;
+  height: 170px;
+  width: 100%;
+}
+.bot1 .bot1_1 {
+  height: 37px;
+  border-bottom: 1px solid gainsboro;
+}
+.bot1 .bot1_1 h3 {
+  width: 63px;
+  height: 25px;
+  border-bottom: 3px solid #2389D3;
+  padding-top: 10px;
+}
+.bot1 .bot1_2 {
+  height: 180px;
+  width: 100%;
+  border-bottom: 1px solid #2389D3;
+}
+.bot1 .bot1_2 a {
+  line-height: 42px;
+  margin-right: 10px;
+}
+.bot1 .bot1_2 a:hover {
+  color: red;
+}
+.bot2 {
+  float: left;
+  margin-top: 50px;
+  font-size: 13px;
+  margin-left: 250px;
+}
+.bot2 li {
+  text-align: center;
+}
+.floatleft {
+  position: fixed;
+  float: left;
+  height: 2000px;
+  width: 150px;
+  border: 1px solid gainsboro;
+  top: 0px;
+}
+.floatright {
+  position: fixed;
+  float: right;
+  height: 2000px;
+  width: 150px;
+  border: 1px solid gainsboro;
+  right: 0px;
+  top: 0px;
+}

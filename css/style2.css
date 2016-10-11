@@ -1,0 +1,31 @@
+body {
+  background-color: orange;
+}
+.floatleft,.floatright{
+	display: none;
+	
+}
+.top{
+	display: none;
+}
+.search{
+	display: none;
+}
+.nav1,.nav2{
+	display: none;
+}
+.advert{
+	display: none;
+}
+.game{
+	display: none;
+}
+.gamecatgary{
+	display: none;
+}
+.ma_middle,.ma_left,.ma_right{
+	float: left;
+}
+.ma_middle{
+	margin-top:1860px ;
+}
